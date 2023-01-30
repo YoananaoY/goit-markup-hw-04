@@ -1,3 +1,10 @@
+:root {
+  --color-first: #ffffff; /*color for tag h1 and text in button in header*/
+  --color-second: #212121; /*color for section headers*/
+  --color-third: #757575; /*color for tag p in other sections in files index and portfolio*/
+  --color-four: #2196f3; /*color for span logo and hover*/
+}
+
 * {
   box-sizing: border-box;
   margin: 0 auto;
@@ -37,9 +44,6 @@ header {
   margin-right: 10px;
 }
 
-svg:hover {
-  fill:#2196f3;
-}
 
 .ul-contact-bar {
   width: 321px;
@@ -314,8 +318,8 @@ svg:hover {
   color: #212121;
   display: flex;
   justify-content: center;
-  margin: 40px;
   padding-top: 94px;
+  margin-bottom:40px;
 }
 
 .index-figcaption {
@@ -411,20 +415,20 @@ svg:hover {
 width: 206px;
 height: 56px;
 display: inline-flex;
-fill: #AFB1B8;
+fill: #757575;
 column-gap: 24px;
-padding-top: 16px;
-
 
 }
-
 
 
 .icon:hover {
   background-color: #2196f3;
   border-radius: 50px;
   cursor: pointer;
-  
+  align-items: center;
+  --color1: var(--color-first);
+  --color3: var(--color-four);
+  fill: var(--color3);
 }
 
 
@@ -433,7 +437,7 @@ padding-top: 16px;
   margin-top: 16px;
   height: 44px;
   width: 44px;
-
+align-items: center;
 }
 
 .oa {
@@ -528,6 +532,47 @@ padding-top: 16px;
   color: #ffffff;
 }
 
+.our-clients {
+  height: 372px;
+}
+
+
+.box-for-client-logo {
+  height: 184px;
+width: 1170px;
+margin-bottom: 94px;
+display: flex;
+}
+
+.client-logo:hover {
+  cursor: pointer;
+  --color1: var(--color-four);
+  --color2: var(--color-four);
+  fill: var(--color1);
+  border-color: #2196f3;
+}
+.client-logo {
+  height: 60px;
+  width: 106px;
+  }
+  
+.client-logo-hover {
+  height: 92px;
+  width: 170px;
+  border: 1px solid rgba(175, 177, 184, 0.3);
+ border-radius: 4px;
+ display: inline-flex;
+ justify-content: center;
+ align-items:center;
+
+}
+.client-logo-hover:hover {
+  cursor: pointer;
+  align-items: center;
+  --color1: var(--color-four);
+  --color2: var(--color-four);
+  fill: var(--color1);
+}
 .navcolor1 {
   font-weight: 400;
   font-size: 14px;
