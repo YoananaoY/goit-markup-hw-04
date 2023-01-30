@@ -34,49 +34,87 @@
           <li><a class="linecolor" href="Contact">Kontakty</a></li>
         </ul>
       </nav>
-      <div class="contact-bar">
-        <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="tel" href="call:+48111111111">+48 111 111 111</a>
+
+      <div class="main-contact-bar">
+
+       <ul class="contact-bar">
+
+        <li class="li-contact-bar">
+          <svg class="mail-icon"><use href="./images/icons.svg#icon-envelope"></use></svg>
+        <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+
+      <li class="li-contact-bar">
+        <svg class="tel-icon"><use href="./images/icons.svg#icon-smartphone"></use></svg>
+        <a class="tel" href="call:+48111111111">+48 111 111 111</a></li>
       </div>
     </div>
+
+
     <header class="header">
       <div class="header-content">
         <h1 class="head-text"
           >EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <a class="btn-buy" href="buy.html" type="button">Zamów usługę</a>
-     </div>
+      </ul>
+      </div>
    </header>
    <main class="container">
     <section class="articles">
       <ul class="list">
         <li class="article">
+          <div class="icon-box">
+            <svg class="article-icons">
+                <use href="./images/icons.svg#icon-antenna-1"></use>
+            </svg>
+        </div>
+          </div>
+          <div>
           <h3 class="title">LOREM IPSUM</h3>
           <p class="oa">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada</p
-          >
+          ></div>
         </li>
         <li class="article">
-          <h3 class="title">LOREM IPSUM</h3>
+          <div class="icon-box">
+            <svg class="article-icons">
+                <use href="./images/icons.svg#icon-clock-1"></use>
+            </svg>
+        </div>
+        <div>
+        <h3 class="title">LOREM IPSUM</h3>
           <p class="oa"
             >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada</p
           >
+        </div>
         </li>
         <li class="article">
-          <h3 class="title">LOREM IPSUM</h3>
+          <div class="icon-box">
+            <svg class="article-icons">
+                <use href="./images/icons.svg#icon-diagram-1"></use>
+            </svg>
+        </div>
+        <div><h3 class="title">LOREM IPSUM</h3>
           <p class="oa">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada</p
-          >
+          ></div>
         </li>
         <li class="article">
+          <div class="icon-box">
+            <svg class="article-icons">
+                <use href="./images/icons.svg#icon-astronaut-1"></use>
+            </svg>
+          </div>
+          <div>
           <h3 class="title">LOREM IPSUM</h3>
           <p class="oa"
             >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada</p
-          >
+          ></div>
         </li>
+        </ul>
     </section>
         <section class="our-job">
           <h2 class="job-header">Czym się zajmujemy</h2>
@@ -124,10 +162,28 @@
             alt="middle-aged brown haired men wearing glasses, smiles"
           />
           <figcaption class="index-figcaption">
-          <h4 class="name">John Doe</h4><span class="prof"
-            >Product Designer</span
-          ></figcaption>
-          </li>
+          <h4 class="name">John Doe</h4>
+          <span class="prof">Product Designer</span><br />
+          <div class="social-links">
+            <div class="icon">              
+            <svg class="social-icons">
+              <use href="./images/icons.svg#icon-instagram-1"></use>
+          </svg></div>
+          <div class="icon">
+          <svg class="social-icons">
+            <use href="./images/icons.svg#icon-twitter-1"></use>
+        </svg></div>
+        <div class="icon">
+        <svg class="social-icons">
+          <use href="./images/icons.svg#icon-facebook-1"></use>
+      </svg></div>
+      <div class="icon">
+      <svg class="social-icons">
+        <use href="./images/icons.svg#icon-linkedin-1"></use>
+    </svg></div>
+
+          </div>
+        </figcaption></li>
           <li class="ot">
               <img
             class="Team-Card-2"
@@ -137,9 +193,10 @@
             alt="middle-aged blonde woman wearing glasses, smiles"
           />
           <figcaption class="index-figcaption">
-            <h4 class="name">John Doe</h4><span class="prof"
-            >FrontEnd Developer</span
-          ></figcaption>
+            <h4 class="name">John Doe</h4>
+            <span class="prof">FrontEnd Developer</span>
+            <div class="social-links"></div>
+          </figcaption>
           </li>
           <li class="ot">
             <img
@@ -151,9 +208,9 @@
           />
           <figcaption class="index-figcaption">
           <h4 class="name">John Doe</h4>
-          <span class="prof"
-            >Marketing</span
-          ></figcaption>
+          <span class="prof">Marketing</span>
+          <div class="social-links"></div>
+        </figcaption>
           </li>
           <li class="ot">
             <img
@@ -165,8 +222,8 @@
           />
           <figcaption class="index-figgaption">
           <h4 class="name">John Doe</h4>
-          <span class="prof">UI Designer</span
-          >
+          <span class="prof">UI Designer</span>
+          <div class="social-links"></div>
           </figcaption>
           </li>
         </ul>
@@ -175,7 +232,12 @@
 
   </main>
     <footer>
-      <address class="footer-address">
+    
+  <!--     <svg class="social-footer">
+        <use href="./images/icons.svg#icon-instagram-2"></use>
+    </svg> -->
+      <address>
+        <div class="footer-address">
         <a class="footer-logo">
           <span class="span" style="color: #2196f3">Web</span>
           <span class="span" style="color: white">Studio</span>
@@ -183,7 +245,11 @@
         <a class="street">m. Warszawa, Aleje Jerozoliskie 21</a>
         <a class="navcolor1" href="mailto:info@example.com">info@example.com</a>
         <a class="navcolor2" href="+48111111111">+48 111 111 111</a><br />
-      </address>
+      </div>
+      <div class="box-join-us">
+      <p class="join-us">DOŁĄCZ DO NAS</p>
+    </div>
+    </address>
     </footer>
   </body>
 </html>

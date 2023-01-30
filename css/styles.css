@@ -20,9 +20,56 @@ header {
   width: 100%;
   height: 20%;
 }
+.mail-icon {
+  display: inline-flex;
+  height: 12px;
+  width: 16px;
+  fill: #757575;
+  margin-right: 10px;
+  margin-top: 0;
+}
+
+.tel-icon {
+  display: inline-flex;
+  height: 16px;
+  width: 10px;
+  fill: #757575;
+  margin-right: 10px;
+}
+
+svg:hover {
+  fill:#2196f3;
+}
+
+.ul-contact-bar {
+  width: 321px;
+  align-items: baseline;
+}
+.li-contact-bar {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-bar {
+  text-decoration: none;
+  list-style: none;
+  align-items: baseline;
+  justify-content: flex-start;
+  display: inline-flex;
+  gap: 100px;
+  padding-right: 180px;
+}
 
 .header {
   background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/photo00.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -30,6 +77,28 @@ header {
   width: 100%;
   justify-content: center;
   align-items: center;
+}
+
+.icon-box > .article-icons {
+  display: block;
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.icon-box {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  margin-right: 0;
+  position: relative;
 }
 
 .header-content {
@@ -145,16 +214,6 @@ header {
   text-decoration-color: #2196f3;
 }
 
-.contact-bar {
-  text-decoration: none;
-  list-style: none;
-  align-content: center;
-  justify-content: flex-start;
-  display: inline-flex;
-  gap: 100px;
-  padding-right: 180Spx;
-}
-
 .btn-buy {
   background-color: #2196f3;
   cursor: pointer;
@@ -188,7 +247,7 @@ header {
 .btn {
   background-color: #f5f4fa;
   cursor: pointer;
-  border-radius: 5%;
+  border-radius: 4px;
   padding: 10px 20px;
   text-decoration: none;
   color: #212121;
@@ -263,6 +322,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
 }
 
 .our-job {
@@ -306,7 +366,7 @@ header {
 
 .ot {
   width: 270px;
-  height: 368px;
+  height: 428px;
   border-style: solid;
   border: 1px;
   background: #ffffff;
@@ -323,7 +383,8 @@ header {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: #212121;
-  padding: 15px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .prof {
@@ -332,6 +393,47 @@ header {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: #757575;
+ }
+
+.name:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #2196f3;
+}
+
+.prof:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #2196f3;
+}
+
+.social-links {
+width: 206px;
+height: 56px;
+display: inline-flex;
+fill: #AFB1B8;
+column-gap: 24px;
+padding-top: 16px;
+
+
+}
+
+
+
+.icon:hover {
+  background-color: #2196f3;
+  border-radius: 50px;
+  cursor: pointer;
+  
+}
+
+
+.icon {
+  display: inline-flex;
+  margin-top: 16px;
+  height: 20px;
+  width: 20px;
+
 }
 
 .oa {
@@ -355,7 +457,7 @@ header {
   height: 16px;
 }
 
-.main_nav {
+.main-nav {
   padding: 3%;
   display: flex;
   justify-content: center;
@@ -474,14 +576,18 @@ footer {
 }
 
 .footer-address {
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   row-gap: 15px;
   padding-top: 60px;
   padding-right: 1139px;
 }
-
+.span {
+  cursor: pointer;
+}
+.street {
+  cursor: pointer;
+}
 .footer-logo {
   text-decoration: none;
   display: inline-flex;
@@ -496,4 +602,21 @@ footer {
   text-decoration: underline;
   color: #2196f3;
   text-decoration-thickness: 3px;
+}
+.join-us {
+  color: white;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.box-join-us {
+width: 206px;
+height: 80px;
+}
+
+
+.footer-social {
 }
