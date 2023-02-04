@@ -24,32 +24,30 @@
   <body>
     <header>
       <div class="menu">
-        <a href="index.html" class="logo">
-          <span class="logo-text1" style="color: #2196f3">Web</span>
-          <span class="logo-text2" style="color: black">Studio</span>
-        </a>
         <nav>
+          <a href="index.html" class="logo">
+            <span class="logo-text1" style="color: #2196f3">Web</span><span class="logo-text2" style="color: black">Studio</span>
+          </a>
           <ul class="nav-list">
             <li><a class="linecolor" href="index.html">Agencja</a></li>
             <li><a class="linecolor" href="portfolio.html">Portfolio</a></li>
             <li><a class="linecolor" href="Contact">Kontakty</a></li>
           </ul>
         </nav>
-  
-        <div class="main-contact-bar">
-  
          <ul class="contact-bar">
-  
           <li class="li-contact-bar">
-            <svg class="mail-icon"><use href="./images/icons.svg#icon-envelope"></use></svg>
-          <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-  
-        <li class="li-contact-bar">
-          <svg class="tel-icon"><use href="./images/icons.svg#icon-smartphone"></use></svg>
-          <a class="tel" href="call:+48111111111">+48 111 111 111</a></li>
-        </div>
+            <a class="contact" href="mailto:info@devstudio.com">
+              <svg class="mail-icon"><use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com
+            </a>
+          </li>
+          <li class="li-contact-bar">
+            <a class="contact" href="call:+48111111111">
+              <svg class="tel-icon"><use href="./images/icons.svg#icon-smartphone"></use></svg>+48 111 111 111
+            </a>
+          </li>
       </div>
     </header>
+
     <main class="container">
       <nav class="main-nav">
         <ul class="line2">
@@ -73,7 +71,7 @@
       <div class="container-box">
         <ul class="cards">
           <li class="signbox">
-            <img
+            <img class="box-border"
               src="./images/photo8.jpg"
               width="370"
               height="294"
@@ -84,7 +82,7 @@
            
           </li>
           <li class="signbox">
-            <img
+            <img class="box-border"
               src="./images/photo9.jpg"
               width="370"
               height="294"
@@ -95,7 +93,7 @@
            
           </li>
           <li class="signbox">
-            <img
+            <img class="box-border"
               src="./images/photo10.jpg"
               width="370"
               height="294"
@@ -106,7 +104,7 @@
           
           </li>
           <li class="signbox">
-            <img
+            <img class="box-border"
               src="./images/photo11.jpg"
               width="370"
               height="294"
@@ -117,7 +115,7 @@
            
           </li>
           <li class="signbox">
-            <img
+            <img class="box-border"
               src="./images/photo12.jpg"
               width="370"
               height="294"
@@ -128,7 +126,7 @@
            
           </li>
           <li class="signbox">
-            <img
+            <img class="box-border"
               src="./images/photo13.jpg"
               width="370"
               height="294"
@@ -139,7 +137,7 @@
           
           </li>
           <li class="signbox">
-            <img
+            <img class="box-border"
               src="./images/photo14.jpg"
               width="370"
               height="294"
@@ -151,7 +149,7 @@
             
           </li>
           <li class="signbox">
-            <img
+            <img class="box-border"
               src="./images/photo15.jpg"
               width="370"
               height="294"
@@ -162,7 +160,7 @@
             
           </li>
           <li class="signbox">
-            <img
+            <img class="box-border"
               src="./images/photo16.jpg"
               width="370"
               height="294"
@@ -176,7 +174,8 @@
       </div>
     </main>
     <footer>
-      <address class="footer-address">
+      <address>
+        <div class="footer-address">
         <a class="footer-logo">
           <span class="span" style="color: #2196f3">Web</span>
           <span class="span" style="color: white">Studio</span>
@@ -184,7 +183,35 @@
         <a class="street">m. Warszawa, Aleje Jerozoliskie 21</a>
         <a class="navcolor1" href="mailto:info@example.com">info@example.com</a>
         <a class="navcolor2" href="+48111111111">+48 111 111 111</a><br />
-      </address>
+      </div>
+      <div class="box-join-us">
+      <p class="join-us">DOŁĄCZ DO NAS</p>
+      <ul class="ul-footer-icon">
+      <li class="li-footer-icon">
+        <a class="footer-icon" href="https://www.instagram.com/" target="_blank"                                        title="instagram">
+        <svg class="social-icons" height="20" width="20">
+          <use href="./images/icons.svg#icon-instagram-1"></use>
+      </svg></a></li>
+
+      <li class="li-footer-icon">
+      <a class="footer-icon"  href="https://www.twitter.com/" target="_blank"                                        title="twitter">
+      <svg class="social-icons" height="20" width="20">
+        <use href="./images/icons.svg#icon-twitter-1"></use>
+    </svg></a></li>
+
+    <li class="li-footer-icon">
+    <a class="footer-icon" href="https://www.facebook.com/" target="_blank"                                        title="facebook">
+    <svg class="social-icons" height="20" width="20">
+      <use href="./images/icons.svg#icon-facebook-1"></use>
+  </svg></a></li>
+
+  <li class="li-footer-icon">
+  <a  class="footer-icon" href="https://www.linkedin.com/" target="_blank"                                        title="linkedin">
+  <svg class="social-icons" height="20" width="20">
+    <use href="./images/icons.svg#icon-linkedin-1"></use>
+</svg></a></li></ul>
+    </div>
+    </address>
     </footer>
   </body>
 </html>
